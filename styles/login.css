@@ -1,0 +1,12 @@
+.home-btn {
+    background-color: #46c3db; 
+}
+.home-btn:hover {
+    background-color: #38b0c4;
+}
+.login-form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    width: 300px;
+}

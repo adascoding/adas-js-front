@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/login.css">
+</head>
+
+<body>
+    <div class="top-left-button">
+        <button class="btn home-btn" id="homeButton">Go Back</button>
+    </div>
+    <div class="container">
+        <div class="login-form">
+            <h2>Login</h2>
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button class="btn" id="loginButton">Login</button>
+            <div class="error-message"></div>
+        </div>
+    </div>
+    <script src="../config/config.js" type="module"></script>
+    <script src="../services/AuthService.js" type="module"></script>
+    <script src="../js/login.js" type="module"></script>
+</body>
+
+</html>
